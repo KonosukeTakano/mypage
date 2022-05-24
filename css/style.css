@@ -12,11 +12,11 @@ header,nav,h2,.slide-item-text,footer{
   font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;
 }
 header {
-    width: 90%; /* 横幅90% */
+    width: 100%;
     padding: 15px 0;
     margin: 0 auto;
     text-align: center;
-    position: relative;
+    position: fixed;
 }
 
 .nav-list{
@@ -26,21 +26,39 @@ header {
 }
 .nav-list-item{
     list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+    display: inline;
 }
 
 main{
     width: 800px;
     justify-content: center;
     margin: 0 auto;
-    padding: 70px 0;
+}
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+.container::-webkit-scrollbar {
+ display:none;
+}
+.area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+section {
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
 h2.hero-title {
     font-size: 2em;
 }
-
+h2.section-title {
+    margin-bottom: 20px;
+}
 .row-center {
     text-align: center;
 }
@@ -64,7 +82,6 @@ footer {
     }
     .nav-list-item{
       width: 100%;
-      margin: 0 0 10px 0;
     }
     
     .main-visual-content{
