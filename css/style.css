@@ -7,6 +7,7 @@
 }
 a{
     text-decoration: none;
+    font-size: 1.3rem;
 }
 header,nav,h2,.slide-item-text,footer{
   font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;
