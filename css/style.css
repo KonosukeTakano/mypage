@@ -1,0 +1,78 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+header,nav,h2,.slide-item-text,footer{
+  font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;
+}
+header {
+    width: 90%; /* 横幅90% */
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.nav-list{
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.nav-list-item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+main{
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+h2.hero-title {
+    font-size: 2em;
+}
+
+.row-center {
+    text-align: center;
+}
+
+footer {
+    width: 100%; 
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+.footer-text{
+    color: #fff;
+}
+
+@media screen and (max-width:425px){
+    header{
+      width: 100%;
+    }
+    .nav-list{
+      width: 100%;
+    }
+    .nav-list-item{
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+    
+    .main-visual-content{
+      width: 100%;
+    }
+    main{
+      width: 100%;
+      display: block;
+    }
+    
+}
