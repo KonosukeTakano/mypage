@@ -7,9 +7,9 @@
 }
 a{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 4.5vw;
 }
-header,nav,h2,.slide-item-text,footer{
+header,nav,a,.slide-item-text,footer{
   font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;
 }
 header {
@@ -28,6 +28,7 @@ header {
 .nav-list-item{
     list-style: none;
     display: inline;
+    margin: 10px;
 }
 
 main{
@@ -55,15 +56,20 @@ section {
 }
 
 h2.hero-title {
-    font-size: 2em;
+    font-size: 10vw;
+    font-family: 'Dancing Script', cursive;
 }
 h2.section-title {
     margin-bottom: 20px;
+    font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;
+    font-size: 6vw;
 }
 .row-center {
     text-align: center;
 }
-
+.slide-item-text {
+    font-size: 4vw;
+}
 footer {
     width: 100%; 
     height: 120px;
