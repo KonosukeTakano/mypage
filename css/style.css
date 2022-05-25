@@ -9,8 +9,12 @@ a{
     text-decoration: none;
     font-size: 4.5vw;
 }
-header,nav,a,.slide-item-text,footer{
-  font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;
+header,nav,a,footer{
+  /*font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;*/
+  font-family: 'Lobster', cursive;
+}
+.slide-item-text{
+    font-family: Chalkduster,"Brandley Hand",Courier,"Segoe Print",sans-serif;
 }
 header {
     width: 100%;
